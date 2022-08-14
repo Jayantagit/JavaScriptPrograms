@@ -30,3 +30,5 @@ emp1.getDetails();
 emp1.nameValue="Jayanta";
 let nameupd=emp1.empDetails;
 console.log(nameupd)
+
+export {employee}
