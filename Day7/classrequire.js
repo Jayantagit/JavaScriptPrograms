@@ -1,4 +1,4 @@
-class employee
+class employeeDetails
 {
 
     constructor(name,dept,location)
@@ -25,24 +25,5 @@ class employee
     }
 }
 
-let emp1=new employee("an","IT","Kol");
-emp1.getDetails();
-emp1.nameValue="Jayanta";
-let nameupd=emp1.empDetails;
-console.log(nameupd)
-
-class HR extends employee
-{
-    constructor(name,dept,location)
-    {
-        super(name,dept,location)
-        console.log("HR--Constructor")
-    }
-
-}
-
-let hr1=new HR("Kajal","HR","BangBangalore");
-hr1.getDetails();
-
-export {employee}
-export {emp1}
+//module.exports =c
+export {employeeDetails}
