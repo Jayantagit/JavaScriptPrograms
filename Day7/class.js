@@ -33,15 +33,16 @@ console.log(nameupd)
 
 class HR extends employee
 {
-    constructor(name,dept,location)
+    constructor(name,dept,location,leaves)
     {
         super(name,dept,location)
-        console.log("HR--Constructor")
+        this.leaves=leaves
+        console.log("HR--Constructor"+leaves)
     }
 
 }
 
-let hr1=new HR("Kajal","HR","BangBangalore");
+let hr1=new HR("Kajal","HR","BangBangalore",10);
 hr1.getDetails();
 
 export {employee}
